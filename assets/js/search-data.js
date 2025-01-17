@@ -506,7 +506,7 @@ ninja.data = [{
         title: 'Inspire HEP',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/2683879", "_blank");
+          window.open("https://inspirehep.net/authors/1878925", "_blank");
         },
       },{
         id: 'social-linkedin',
