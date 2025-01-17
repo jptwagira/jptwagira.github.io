@@ -516,13 +516,6 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/jptwagira", "_blank");
         },
       },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0009-0008-0532-5951", "_blank");
-        },
-      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
