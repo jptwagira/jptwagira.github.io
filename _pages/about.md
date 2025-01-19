@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Biomedical and Physical Sciences Building</p>
-    <p>567 Wilson Road, Room 4235</p>
+    <p>567 Wilson Road, BPS Room 4235</p>
     <p>East Lansing, MI 48824</p>
   
 news: true # includes a list of news items
