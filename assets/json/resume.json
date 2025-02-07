@@ -22,7 +22,7 @@
       }
     ]
   },
-  "Research": [
+  "research": [
     {
       "name": "Institute for Advanced Study, Princeton University",
       "position": "Professor of Theoretical Physics",
@@ -60,7 +60,7 @@
       "highlights": ["Relativity"]
     }
   ],
-    "Teaching": [
+    "teaching": [
     {
       "name": "Institute for Advanced Study, Princeton University",
       "position": "Professor of Theoretical Physics",
