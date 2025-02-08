@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: #repositories
+description: I am a PhD candidate and a research assistant in the field of experimental astroparticle physics, working on neutrino research spanning data analysis and software development for tools designed for scientific applications.
 nav: true
 nav_order: 4
 ---
