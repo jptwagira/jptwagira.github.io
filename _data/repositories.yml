@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jptwagira
+  - icecube
+  - pone-software
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - jptwagira/jptwagira.github.io
+  - jptwagira/jekyll
+  - icecube/skyllh
+  - icecube/photospline
+  - icecube/icetray-public
+  - astropy/astropy
