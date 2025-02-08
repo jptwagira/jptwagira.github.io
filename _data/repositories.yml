@@ -5,7 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - jptwagira/jptwagira.github.io
-  - jptwagira/jekyll
+  - quantumlib/Cirq
   - icecube/skyllh
   - icecube/photospline
   - icecube/icetray-public
