@@ -83,28 +83,6 @@
       "endDate": "2025-07-01",
       "score": "10",
       "courses": ["Experimental Astroparticle Physics, Pacific Ocean Neutrino Experiment (P-ONE)"]
-    },
-    {
-      "institution": "Michigan State University",
-      "location": "East Lansing, MI, USA",
-      "url": "https://msu.edu/",
-      "area": "Experimental Astroparticle Physics",
-      "studyType": "Master of Science (M.S.) in Physics",
-      "startDate": "2018-08-01",
-      "endDate": "2020-05-01",
-      "score": "10",
-      "courses": ["Experimental Astroparticle Physics, IceCube Neutrino Observatory"]
-    },
-    {
-      "institution": "African Institute for Mathematical Sciences",
-      "location": "Kigali, Rwanda",
-      "url": "https://aims.ac.rw/",
-      "area": "Mathematical Sciences, Statistical Machine Learning",
-      "studyType": "Master of Science in Mathematical Sciences",
-      "startDate": "2017-07-01",
-      "endDate": "2018-06-01",
-      "score": "10",
-      "courses":
     }
   ],
   "awards": [
