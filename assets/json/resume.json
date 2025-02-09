@@ -96,26 +96,26 @@
       "courses": []
     },
     {
-      "institution": "Michigan State University",
-      "location": "East Lansing, MI, USA",
-      "url": "https://msu.edu/",
-      "area": "Performance studies for the Pacific Ocean Neutrino Experiment (P-ONE)",
-      "studyType": "Doctor of Philosophy (Ph.D.) in Physics",
-      "startDate": "2020-01-01",
-      "endDate": "2025-07-01",
+      "institution": "African Institute for Mathematical Sciences",
+      "location": "Kigali, Rwanda",
+      "url": "https://aims.ac.rw/",
+      "area": "Mathematical Sciences, Statistical Machine Learning",
+      "studyType": "Master of Science in Mathematical Sciences",
+      "startDate": "2017-08-01",
+      "endDate": "2018-06-01",
       "score": "10",
-      "courses": ["Experimental Astroparticle Physics, Pacific Ocean Neutrino Experiment (P-ONE)"]
+      "courses": []
     },
     {
-      "institution": "Michigan State University",
-      "location": "East Lansing, MI, USA",
-      "url": "https://msu.edu/",
-      "area": "Performance studies for the Pacific Ocean Neutrino Experiment (P-ONE)",
-      "studyType": "Doctor of Philosophy (Ph.D.) in Physics",
-      "startDate": "2020-01-01",
-      "endDate": "2025-07-01",
+      "institution": "University of Rwanda, College of Education",
+      "location": "Kigali, Rwanda",
+      "url": "https://ur.ac.rw/",
+      "area": "Physics (major) and Mathematics (minor), Education and Teaching Practices",
+      "studyType": "Bachelor of Education (Hons.) in Physics",
+      "startDate": "2011-09-01",
+      "endDate": "2015-07-01",
       "score": "10",
-      "courses": ["Experimental Astroparticle Physics, Pacific Ocean Neutrino Experiment (P-ONE)"]
+      "courses": []
     }
   ],
   "awards": [
