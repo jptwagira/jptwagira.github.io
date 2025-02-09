@@ -83,6 +83,17 @@
       "endDate": "2025-07-01",
       "score": "10",
       "courses": ["Experimental Astroparticle Physics, Pacific Ocean Neutrino Experiment (P-ONE)"]
+    },
+    {
+      "institution": "Michigan State University",
+      "location": "East Lansing, MI, USA",
+      "url": "https://msu.edu/",
+      "area": "Performance studies for the Pacific Ocean Neutrino Experiment (P-ONE)",
+      "studyType": "Doctor of Philosophy (Ph.D.) in Physics",
+      "startDate": "2020-01-01",
+      "endDate": "2025-07-01",
+      "score": "10",
+      "courses": ["Experimental Astroparticle Physics, Pacific Ocean Neutrino Experiment (P-ONE)"]
     }
   ],
   "awards": [
