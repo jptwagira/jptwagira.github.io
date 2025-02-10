@@ -24,40 +24,49 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Michigan State University, The Pacific Ocean Neutrino Experiment",
+      "position": "Research Assistant",
+      "url": "https://www.pacific-neutrino.org/",
+      "startDate": "2021-08-01",
+      "endDate": "2025-07-01",
+      "summary": "Collaborate with a team of scientists and software engineers to conduct performance studies of the Pacific Ocean Neutrino Experiment (P-ONE) using Monte Carlo simulations.",
+      "highlights": []
     },
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Michigan State University, IceCube Neutrino Observatory",
+      "position": "Research Assistant",
+      "url": "https://icecube.wisc.edu/",
+      "startDate": "2020-05-01",
+      "endDate": "2021-08-01",
+      "summary": "Energy reconstruction of cascade events using the likelihood method based on the IceCube Monte Carlo simulation dataset.",
+      "highlights": []
     },
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Michigan State University, Center for Integrative Studies in General Science",
+      "position": "Teaching Assistant",
+      "url": "https://cisgs.natsci.msu.edu/",
+      "startDate": "2019-01-01",
+      "endDate": "2020-05-01",
+      "summary": "Teaching and grading three sections of Introductory Physics (Lab).",
+      "highlights": [""]
     },
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Michigan State University, department of Physics and Astronomy",
+      "position": "Teaching Assistant",
+      "url": "https://pa.msu.edu/",
+      "startDate": "2018-08-01",
+      "endDate": "2018-12-01",
+      "summary": "Conduct help room sessions, assist in class demo setup for PHY 232 Introductory Physics II.",
+      "highlights": []
+    },
+    {
+      "name": "High School Teacher, Kigali Rwanda",
+      "position": "Physics Teacher",
+      "url": "https://www.linkedin.com/in/jptwagira",
+      "startDate": "2015-09-01",
+      "endDate": "2017-07-01",
+      "summary": "Taught junior and senior level Mathematics and Physics courses to more than 100 students each year at four different secondary schools in Kigali.",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -124,7 +133,7 @@
       "date": "2015-07-27",
       "awarder": "University of Rwanda, College of Education",
       "url": "https://ur.ac.rw/",
-      "summary": "Certificate of Excellence for being the best graduate in the Degree of Bachelor of Education with Honours (Secondary).'"
+      "summary": "Certificate of Excellence for being the best graduate in the Degree of Bachelor of Education with Honours (Secondary)."
     }
   ],
   "certificates": [
