@@ -157,11 +157,14 @@
   "skills": [
     {
       "name": "Physics",
-      "level": "Master",
+      "level": "PhD",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing"
+        "Astroparticle Physics",
+        "Scientific Computing",
+        "Data Analysis",
+        "Machine Learning",
+        "Teachin & Research"
       ]
     }
   ],
