@@ -139,9 +139,9 @@
   "certificates": [
     {
       "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "date": "2021-11-30",
+      "issuer": "Educative",
+      "url": "https://www.educative.io/",
       "icon": "fa-solid fa-location-dot"
     }
   ],
