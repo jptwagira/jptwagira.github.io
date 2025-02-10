@@ -71,14 +71,14 @@
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
+      "organization": "UN Ivy STEM Connect - AIMS Rwanda",
+      "location": "Kigali, Rwanda",
+      "position": "Mentor",
       "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "startDate": "2017-12-01",
+      "endDate": "2018-04-01",
+      "summary": "Provided mentorship in Mathematics and Physics to students from Lycee de Kigali in collaboration with AIMS Rwanda students and Ivy league students studying in the USA.",
+      "highlights": []
     }
   ],
   "education": [
