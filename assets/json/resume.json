@@ -210,9 +210,9 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
+      "name": "Neutrino Astronomy",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "highlights": ["simulation", "reconstruction", "data analysis"],
       "startDate": "1900-01-01",
       "endDate": "1900-01-01",
       "url": "https://example.com"
