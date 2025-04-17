@@ -142,7 +142,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/productivity/";
+          window.location.href = "/blog/2024/writing-skills/";
         
       },
     },{id: "post-a-post-with-code-diff",
