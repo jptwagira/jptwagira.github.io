@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git basic commands
+title: git basic commands
 date: 2023-02-13 14:24:00
 description: Git HOWTOS
 tags: code howtos
