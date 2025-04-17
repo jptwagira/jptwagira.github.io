@@ -8,9 +8,7 @@ categories: research
 related_posts: true
 ---
 
-### Git HOWTOS
-
-# Linuxconfig.org
+### tecmint.com
 ---
 
 * 👉 [fdupes – A Command Line Tool to Find and Delete Duplicate Files in Linux](https://www.tecmint.com/fdupes-find-and-delete-duplicate-files-in-linux/)
@@ -39,7 +37,6 @@ find . -type f -exec du --human {} + | sort --human --reverse | head
 du -mh --max-depth=1 downloads/ | sort -h
 du -mh --max-depth=1 downloads/ | sort -h -r
 du --human-readable --max-depth=1 downloads/ | sort --human-numeric-sort -r
-
 du -h | sort -h | head
 du -h | sort -hr | head
 du --human-readable | sort --human-numeric-sort | head
@@ -49,24 +46,26 @@ du --human-readable | sort --human-numeric-sort -r | head
 
 * 👉 Merge two pdf files side by side in a command line [here](https://superuser.com/questions/917190/merge-two-pdf-files-side-by-side-in-command-line)
 * Joining PDFs with Linux command line by [Judith Roth](https://makandracards.com/makandra/151861-joining-pdfs-with-linux-command-line)
-
 ```.sh
 pdfunite *.pdf output.pdf
 sudo apt install texlive-extra-utils
 ```
 
+
+* 👉 Split files, note the naming scheme
 ```.sh
-### Split files, note the naming scheme
 pdfseparate File1.pdf temp-%04d-file1.pdf
 pdfseparate File2.pdf temp-%04d-file2.pdf
+```
 
-# Combine the final pdf
+* 👉 Combine the final pdf
+```.sh
 pdfjam temp-*-*.pdf --nup 2x1 --landscape --outfile File1+2.pdf
 pdfjam temp-*-*.pdf --nup 3x2 --delta '{-20mm 0mm}' --landscape --outfile File1+2.pdf
 pdfjam temp-*-*.pdf --nup 3x2 --paper 'a0paper' --delta '{-80mm 0mm}' --landscape --outfile File1+2.pdf
 ```
 
-### 👉 Adding WaterMarks to pdf [here](https://www.togaware.com/linux/survivor/pdf-watermarks.html) and [here](https://superuser.com/questions/280659/how-can-i-apply-a-watermark-on-every-page-of-a-pdf-file)
+* 👉 Adding WaterMarks to pdf [here](https://www.togaware.com/linux/survivor/pdf-watermarks.html) and [here](https://superuser.com/questions/280659/how-can-i-apply-a-watermark-on-every-page-of-a-pdf-file)
 ```.sh
 pdftk survivor.pdf background watermark.pdf output survivor_watermarked.pdf
 pdftk original.pdf stamp watermark.pdf output final.pdf
@@ -82,11 +81,11 @@ qpdf --empty --pages infile.pdf z-1 -- outfile.pdf
 echo 'HISTTIMEFORMAT="%F %T "' >> ~/.bashrc
 ```
 
-### /etc/apt/sources.list
+* 👉 /etc/apt/sources.list
 
 Example of /etc/apt/sources.list Ubuntu 18.04 [here](https://gist.github.com/h0bbel/4b28ede18d65c3527b11b12fa36aa8d1)
 
-### 👉 Some useful commands
+* 👉 Some useful commands
 [Copying a Directory with SCP](https://stackabuse.com/copying-a-directory-with-scp) and [here](https://linuxhint.com/rsync_copy_files/)
 
 ```.sh
@@ -133,7 +132,7 @@ mmv "*Log_Likelihood_direction_*" "#1Log_Likelihood_direction_scan_event_11_#2"
 python file >> output.txt
 ```
 
-### 👉 How to submit interactive job on many file
+#### 👉 How to submit interactive job on many file
 ```.sh
 condor_submit -interactive -a request_gpus=1
 eval $(/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/setup.sh)
