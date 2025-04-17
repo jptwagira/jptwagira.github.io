@@ -8,6 +8,6 @@ inline: false
 related_posts: false
 ---
 
-💡 **IceCube** IceCube Detects High-Energy **Neutrinos from the Galactic Plane**. 🌌🔬
+💡 **IceCube** detects high-energy **neutrinos from the Galactic plane**. 🌌🔬
 
 👉 [Read the full article in *Science*](https://www.science.org/doi/10.1126/science.adc9818)
