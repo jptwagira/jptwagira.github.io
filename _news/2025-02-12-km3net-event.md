@@ -8,6 +8,6 @@ inline: false
 related_posts: false
 ---
 
-💡 **KM3NeT** deep-sea neutrino telescope have **observed an ultra-high-energy cosmic neutrino**. 🌌🔬
+💡 **KM3NeT** deep-sea neutrino telescope have **observed an ultra-high-energy cosmic neutrino**. 🌌🔭
 
 👉 [Read the full article in *Nature*](https://www.nature.com/articles/s41586-024-08543-1)
