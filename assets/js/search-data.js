@@ -454,6 +454,11 @@ ninja.data = [{
           title: 'Observation of an ultra-high-energy cosmic neutrino with KM3NeT',
           description: "",
           section: "News",handler: () => {
+              window.location.href = "/news/galactic_neutrinos/";
+            },},{id: "news-observation-of-high-energy-neutrinos-from-the-galactic-plane",
+          title: 'Observation of high-energy neutrinos from the Galactic plane',
+          description: "",
+          section: "News",handler: () => {
               window.location.href = "/news/km3net-event/";
             },},{id: "projects-project-1",
           title: 'project 1',
