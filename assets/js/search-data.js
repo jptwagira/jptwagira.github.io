@@ -79,7 +79,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-a-post-with-pseudo-code",
+        },{id: "post-observation-of-an-ultra-high-energy-cosmic-neutrino-with-km3net-nature",
+      
+        title: 'Observation of an ultra-high-energy cosmic neutrino with KM3NeT | Nature <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "The detection of cosmic neutrinos with energies above a teraelectronvolt (TeV) offers a unique exploration into astrophysical phenomena1–3. Electrically neutral and interacting only by means of the weak interaction, neutrinos are not deflected by magnetic fields and are rarely absorbed by interstellar matter: their direction indicates that their cosmic origin might be from the farthest reaches of the Universe. High-energy neutrinos can be produced when ultra-relativistic cosmic-ray protons or nuclei interact with other matter or photons, and their observation could be a signature of these processes. Here we report an exceptionally high-energy event observed by KM3NeT, the deep-sea neutrino telescope in the Mediterranean Sea4, which we associate with a cosmic neutrino detection. We detect a muon with an estimated energy of $$12{0}_{-60}^{+110}$$ petaelectronvolts (PeV). In light of its enormous energy and near-horizontal direction, the muon most probably originated from the interaction of a neutrino of even higher energy in the vicinity of the detector. The cosmic neutrino energy spectrum measured up to now5–7 falls steeply with energy. However, the energy of this event is much larger than that of any neutrino detected so far. This suggests that the neutrino may have originated in a different cosmic accelerator than the lower-energy neutrinos, or this may be the first detection of a cosmogenic neutrino8, resulting&amp;nbsp;from the interactions of ultra-high-energy cosmic rays with background photons in the Universe. A&amp;nbsp;very high-energy muon observed by the KM3NeT experiment in the Mediterranean Sea is evidence for the interaction of an exceptionally high-energy neutrino of cosmic origin. &amp;nbsp;",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://www.nature.com/articles/s41586-024-08543-1", "_blank");
+        
+      },
+    },{id: "post-a-post-with-pseudo-code",
       
         title: "a post with pseudo code",
       
@@ -99,17 +110,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/photo-gallery/";
-        
-      },
-    },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-      
-        title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
         
       },
     },{id: "post-a-post-with-tabs",
@@ -222,6 +222,17 @@ ninja.data = [{
           window.location.href = "/blog/2023/tikzjax/";
         
       },
+    },{id: "post-fdupes-a-command-line-tool-to-find-and-delete-duplicate-files-in-linux",
+      
+        title: 'fdupes - A Command Line Tool to Find and Delete Duplicate Files in... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "fdupes is a Linux utility for identifying or deleting duplicate files in the given set of directories and sub-directories. It recognize duplicates by comparing MD5 signature of files followed by a byte-to-byte comparison.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://www.tecmint.com/fdupes-find-and-delete-duplicate-files-in-linux/", "_blank");
+        
+      },
     },{id: "post-a-post-with-bibliography",
       
         title: "a post with bibliography",
@@ -242,6 +253,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2023/jupyter-notebook/";
+        
+      },
+    },{id: "post-just-a-moment",
+      
+        title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://www.science.org/stoken/author-tokens/ST-1285/full", "_blank");
         
       },
     },{id: "post-a-post-with-custom-blockquotes",
@@ -319,17 +341,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2022/giscus-comments/";
-        
-      },
-    },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-      
-        title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
     },{id: "post-a-post-with-redirect",
