@@ -156,6 +156,17 @@ ninja.data = [{
           window.open("https://www.coursera.org/articles/writing-skills", "_blank");
         
       },
+    },{id: "post-productivity",
+      
+        title: "Productivity",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/productivity/";
+        
+      },
     },{id: "post-a-post-with-code-diff",
       
         title: "a post with code diff",
