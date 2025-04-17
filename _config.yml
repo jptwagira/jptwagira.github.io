@@ -128,7 +128,7 @@ external_sources:
     posts:
       - url: https://www.nature.com/articles/s41586-024-08543-1
         published_date: 2025-02-12
-      - url: https://www.science.org/stoken/author-tokens/ST-1285/full
+      - url: https://www.science.org/doi/10.1126/science.adc9818
         published_date: 2023-06-29
   - name: Linux Commands
     posts:
