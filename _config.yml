@@ -273,7 +273,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["maths", "physics", "coding", "astroparticle", "datascience", "quantum", "research", "education", "productivity", "howtos", "phd"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_categories: ["external-services", "sample-posts"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
