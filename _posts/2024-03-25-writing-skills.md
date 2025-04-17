@@ -3,8 +3,8 @@ layout: post
 title: Mastering Writing Skills Tips, Tools, and Resources
 date: 2024-03-25
 description: How to Improve Writing Skills 
-tags: productivity education
-categories: productivity
+tags: howtos writing
+categories: writing
 ---
 
 Want to sharpen your writing skills for work, school, or creative projects? This post was originally published on Coursera and offers practical tips to help you become a more effective communicator.
