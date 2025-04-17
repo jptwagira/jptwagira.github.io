@@ -332,11 +332,11 @@ ninja.data = [{
           window.location.href = "/blog/2023/table-of-contents/";
         
       },
-    },{id: "post-git",
+    },{id: "post-git-basic-commands",
       
-        title: "Git",
+        title: "Git basic commands",
       
-      description: "",
+      description: "Git HOWTOS",
       section: "Posts",
       handler: () => {
         
