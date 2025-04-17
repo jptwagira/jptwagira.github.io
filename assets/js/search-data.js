@@ -145,6 +145,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/post-citation/";
         
       },
+    },{id: "post-7-ways-to-improve-your-writing-skills-coursera",
+      
+        title: '7 Ways to Improve Your Writing Skills | Coursera <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "Writing, like any other skill, is something you can get better at with time and practice. Learn how.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://www.coursera.org/articles/writing-skills", "_blank");
+        
+      },
     },{id: "post-a-post-with-code-diff",
       
         title: "a post with code diff",
