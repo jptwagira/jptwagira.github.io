@@ -122,8 +122,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  #- name: medium.com
-  #  rss_url: https://medium.com/@jptwagira/feed
+  - name: medium.com
+    rss_url: https://medium.com/@jpdevbasics/feed
   - name: Neutrino Astronomy
     posts:
       - url: https://www.nature.com/articles/s41586-024-08543-1
