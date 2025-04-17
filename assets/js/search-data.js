@@ -456,12 +456,7 @@ ninja.data = [{
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-observation-of-high-energy-neutrinos-from-the-galactic-plane",
+          section: "News",},{id: "news-observation-of-high-energy-neutrinos-from-the-galactic-plane",
           title: 'Observation of high-energy neutrinos from the Galactic plane',
           description: "",
           section: "News",handler: () => {
