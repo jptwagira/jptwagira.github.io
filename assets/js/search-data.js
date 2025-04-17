@@ -376,6 +376,17 @@ ninja.data = [{
           window.location.href = "/blog/2021/distill/";
         
       },
+    },{id: "post-linux-basic-commands",
+      
+        title: "linux basic commands",
+      
+      description: "Linux HOWTOS",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2021/linux-commands/";
+        
+      },
     },{id: "post-a-post-with-twitter",
       
         title: "a post with twitter",
@@ -450,8 +461,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-observation-of-an-ultra-high-energy-cosmic-neutrino-with-km3net",
-          title: 'Observation of an ultra-high-energy cosmic neutrino with KM3NeT',
+            },},{id: "news-observation-of-high-energy-neutrinos-from-the-galactic-plane",
+          title: 'Observation of high-energy neutrinos from the Galactic plane',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/galactic_neutrinos/";
