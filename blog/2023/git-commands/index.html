@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"> <html><body> <h3 id="git-howtos">Git HOWTOS</h3> <hr> <h3 id="basic-of-github-actions-tutorial---basic-concepts-and-cicd-pipeline-with-docker">Basic of GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker</h3> <ul> <li>Creating CI/CD Pipeline using GitHub Actions for Python Project (Heroku Deployment Example) <a href="https://www.youtube.com/watch?v=WTofttoD2xg" rel="external nofollow noopener" target="_blank">here</a> </li> <li>GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker <a href="https://www.youtube.com/watch?v=R8_veQiYBjI" rel="external nofollow noopener" target="_blank">here</a> </li> <li> <table> <tbody> <tr> <td>GitHub Actions Tutorial</td> <td>From Zero to Hero in 90 minutes (Environments, Secrets, Runners, etc) <a href="https://www.youtube.com/watch?v=TLB5MY9BBa4" rel="external nofollow noopener" target="_blank">here</a> </td> </tr> </tbody> </table> </li> <li>How to resolve “refusing to allow an OAuth App to create or update workflow” on git push <a href="https://stackoverflow.com/questions/64059610/how-to-resolve-refusing-to-allow-an-oauth-app-to-create-or-update-workflow-on" rel="external nofollow noopener" target="_blank">stackoverflow</a> </li> <li>Continuous Integration With Python: An Introduction <a href="https://realpython.com/python-continuous-integration/" rel="external nofollow noopener" target="_blank">Real Python</a> </li> </ul> <h4 id="how-do-i-fix-the-white-arrow-on-the-folder-thing-on-github-even-after-deleting-the-git-folder">How do I fix the white arrow on the folder thing on GitHub even after deleting the .git folder?</h4> <p>You should:</p> <ul> <li>git <code class="language-plaintext highlighter-rouge">rm --cached afolder</code> (no trailing slash), with <code class="language-plaintext highlighter-rouge">aFolder</code> being the name of the folder in which there was a .git/ subfolder (that you already removed)</li> <li>commit (git commit -m <code class="language-plaintext highlighter-rouge">remove nested Git repository reference</code>) add (git add aFolder)</li> <li>commit again (git commit -m <code class="language-plaintext highlighter-rouge">Import aFolder content</code>) and push</li> <li>You should now see aFolder content in your GitHub repository. more details <a href="https://stackoverflow.com/questions/66523079/how-do-i-fix-the-white-arrow-on-the-folder-thing-on-github-even-after-deleting-t" rel="external nofollow noopener" target="_blank">here</a> </li> </ul> <h3 id="moving-a-sub-directory-to-a-new-repo-with-histroy">Moving a sub-directory to a new repo with histroy</h3> <ul> <li>check out the tutorial <a href="https://www.youtube.com/watch?v=BSVkmpB8M-k" rel="external nofollow noopener" target="_blank">here</a> <pre><code class="language-.sh">mkdir code
+cd code/
+git clone https://github.com/jptwagira/p-reconstruction.git
+cd p-reconstruction/
+git remote rm origin
+git filter-branch --subdirectory-filter time-residuals -- --all
+mkdir ../p-time-residuals
+mv * ../p-time-residuals/
+mv .git/ ../p-time-residuals/
+cd ../p-time-residuals/
+git remote add origin https://github.com/jptwagira/p-time-residuals.git
+git pull origin main --allow-unrelated-histories
+git push origin main
+</code></pre> </li> </ul> <h2 id="useful-git-links">Useful Git Links</h2> <ul> <li>Complete list of all git commands <a href="https://git-scm.com/docs" rel="external nofollow noopener" target="_blank">here</a> </li> <li>Become a git guru from atlassian.com <a href="https://www.atlassian.com/git/tutorials" rel="external nofollow noopener" target="_blank">here</a> </li> <li>Getting Started With GitHub, Part 3: Creating a Read Me File in Markdown <a href="https://www.youtube.com/watch?v=yXY3f9jw7fg" rel="external nofollow noopener" target="_blank">here</a> </li> <li>A Visual Git Reference <a href="https://marklodato.github.io/visual-git-guide/index-en.html?no-svg#:~:text=git%20checkout%20HEAD%20%2D%2D%20files,stage%20and%20the%20working%20directory." rel="external nofollow noopener" target="_blank">here</a> </li> <li>Git Internals by John Britton of GitHub - CS50 Tech Talk <a href="https://www.youtube.com/watch?v=lG90LZotrpo" rel="external nofollow noopener" target="_blank">here</a> </li> <li>Git MERGE vs REBASE <a href="https://www.youtube.com/watch?v=CRlGDDprdOQ" rel="external nofollow noopener" target="_blank">here</a> </li> <li>Complete Guide to Open Source - How to Contribute <a href="https://www.youtube.com/watch?v=yzeVMecydCE" rel="external nofollow noopener" target="_blank">here</a> </li> <li>Git &amp; GitHub Tutorials <a href="https://www.youtube.com/watch?v=xAAmje1H9YM&amp;list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW" rel="external nofollow noopener" target="_blank">here</a> </li> <li>GitGuide: GitHub in IceCube <a href="https://github.com/icecube/icecube.github.io/wiki/GitGuide%3AGitHub-in-IceCube" rel="external nofollow noopener" target="_blank">here</a> </li> <li>IceCube GitHub Development <a href="https://github.com/icecube/icecube.github.io/wiki" rel="external nofollow noopener" target="_blank">here</a> </li> <li>IceCube Developer Policy <a href="https://github.com/icecube/icecube.github.io/wiki/DeveloperPolicy" rel="external nofollow noopener" target="_blank">here</a> </li> <li>Contributing to NumPy - Development process - summary <a href="https://numpy.org/devdocs/dev/index.html" rel="external nofollow noopener" target="_blank">here</a> </li> <li>Git configuration <a href="https://numpy.org/devdocs/dev/gitwash/configure_git.html" rel="external nofollow noopener" target="_blank">here</a> </li> <li>How To Compare Two Git Branches <a href="https://devconnected.com/how-to-compare-two-git-branches/" rel="external nofollow noopener" target="_blank">here</a> </li> <li>Git Branching - Rebasing can be found <a href="https://git-scm.com/book/en/v2/Git-Branching-Rebasing" rel="external nofollow noopener" target="_blank">here</a> </li> <li>Git Clone Branch – How to Clone a Specific Branch @freecodecamp <a href="https://www.freecodecamp.org/news/git-clone-branch-how-to-clone-a-specific-branch/" rel="external nofollow noopener" target="_blank">here</a> </li> <li> <p>When to use ‘Git Rebase’ explained <a href="https://medium.com/@harishlyadav/when-to-use-git-rebase-explained-3c8192cba5c7" rel="external nofollow noopener" target="_blank">here</a> by Harish Yadav @medium</p> </li> <li>A framework for managing and maintaining multi-language pre-commit hooks <a href="https://pre-commit.com/" rel="external nofollow noopener" target="_blank">here</a> </li> </ul> <h2 id="setting-up-git-on-systems">Setting Up Git on Systems</h2> <pre><code class="language-.sh">git config --list to check configuration
+git config --global user.name "First Last"
+git config --global user.email "email"
+git config --global merge.tool "vimdiff"
+git config --global core.editor "vim"
+
+</code></pre> <h2 id="useful-git--svn-commands">Useful Git &amp; SVN commands</h2> <pre><code class="language-.sh">git checkout "file": restore
+git checkout "branch name"
+git checkout "commit ID"
+git log --oneline
+git branch -a
+svn status
+svn diff
+svn log --limit 10
+</code></pre> <h3 id="checkout-a-single-file-to-a-specific-commit">Checkout a single file to a specific commit</h3> <pre><code class="language-.sh">git checkout &lt;COMMIT#&gt; &lt;path/to/the/messed/up/file&gt;
+</code></pre> <h3 id="check-the-difference-between-branches-a-and-b">Check the difference between branches A and B</h3> <pre><code class="language-.sh">git diff branch1..branch2
+git diff branch1...branch2
+git log branch1..branch2
+git diff branches/directreco..origin/stable
+git diff origin/stable..branches/directreco
+git diff master..feature -- &lt;file&gt;
+git diff --color-words
+git diff --color-words branch1..branch2
+git diff --color-words commit1..commit2
+git diff branch-A branch-B
+git diff commit1 commit2 file
+</code></pre> <p><a href="https://stackoverflow.com/questions/3338126/how-do-i-diff-the-same-file-between-two-different-commits-on-the-same-branch" rel="external nofollow noopener" target="_blank">here</a></p> <h3 id="how-to-build-icetray-branch-on-cluster-on-cluster-by-git-clone">How to build icetray branch on cluster on cluster by git clone!</h3> <pre><code class="language-.sh">mkdir icetray
+cd icetray
+mkdir -p src debug
+git clone &lt;url&gt; src
+git clone -b "branch name" --single-branch &lt;url&gt; src
+condor_submit -interactive -a request_cpus=N
+eval $(/cvmfs/icecube.opensciencegrid.org/py2-v3.1.1/setup.sh)
+cmake ../src -DCMAKE_BUILD_TYPE=Debug
+make -jN
+</code></pre> <h2 id="how-to-compile-a-particular-commit">How to Compile a Particular commit</h2> <pre><code class="language-.sh">git checkout "branch name"
+git log --oneline
+git checkout 7a8f31f
+condor_submit -interactive -a request_cpus=4
+eval $(/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/setup.sh)
+cd ~/icetray/
+git log --oneline
+mkdir debug / cd debug
+cmake ../src
+make -j4
+</code></pre> <h3 id="contributiong-to-a-branch">Contributiong to a branch!</h3> <pre><code class="language-.sh">mkdir icetray
+cd icetray
+mkdir -p src debug
+git clone &lt;url&gt; src
+git clone -b "branch name" --single-branch &lt;url&gt; src
+</code></pre> </body></html>

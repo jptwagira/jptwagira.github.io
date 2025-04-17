@@ -354,6 +354,17 @@ ninja.data = [{
           window.location.href = "/blog/2023/git/";
         
       },
+    },{id: "post-git-commands",
+      
+        title: "Git Commands",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2023/git-commands/";
+        
+      },
     },{id: "post-a-post-with-giscus-comments",
       
         title: "a post with giscus comments",
