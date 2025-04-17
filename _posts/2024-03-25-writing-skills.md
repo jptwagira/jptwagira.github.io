@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Mastering Writing Skills Tips, Tools, and Resources
+title: mastering writing skills tips, tools, and resources
 date: 2024-03-25
-description: How to Improve Writing Skills 
+description: how to improve writing skills 
 tags: howtos writing
 categories: writing
 ---
