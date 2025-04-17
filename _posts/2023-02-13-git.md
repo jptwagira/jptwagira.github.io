@@ -1,3 +1,13 @@
+---
+layout: post
+title: Git basic commands
+date: 2023-02-13 14:24:00
+description: Git HOWTOS
+tags: coding howtos
+categories: research
+related_posts: true
+---
+
 ### Git HOWTOS
 ---
 
