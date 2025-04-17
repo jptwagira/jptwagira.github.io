@@ -472,10 +472,12 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-observation-of-an-ultra-high-energy-cosmic-neutrino-with-km3net",
+          title: 'Observation of an ultra-high-energy cosmic neutrino with KM3NeT',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/km3net-event/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
