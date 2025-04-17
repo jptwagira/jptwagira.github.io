@@ -274,7 +274,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.open("https://www.science.org/stoken/author-tokens/ST-1285/full", "_blank");
+          window.open("https://www.science.org/doi/10.1126/science.adc9818", "_blank");
         
       },
     },{id: "post-a-post-with-custom-blockquotes",
