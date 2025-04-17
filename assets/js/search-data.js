@@ -323,7 +323,7 @@ ninja.data = [{
       },
     },{id: "post-git-basic-commands",
       
-        title: "Git basic commands",
+        title: "git basic commands",
       
       description: "Git HOWTOS",
       section: "Posts",
