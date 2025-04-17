@@ -79,18 +79,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-a-post-with-pseudo-code",
-      
-        title: "a post with pseudo code",
-      
-      description: "this is what included pseudo code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/pseudocode/";
-        
-      },
-    },{id: "post-a-post-with-image-galleries",
+        },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -132,6 +121,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2024/post-citation/";
+        
+      },
+    },{id: "post-a-post-with-pseudo-code",
+      
+        title: "a post with pseudo code",
+      
+      description: "this is what included pseudo code could look like",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/pseudocode/";
         
       },
     },{id: "post-mastering-writing-skills-tips-tools-and-resources",
