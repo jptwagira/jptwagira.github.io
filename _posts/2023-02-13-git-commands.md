@@ -11,7 +11,7 @@ related_posts: true
 ### Git HOWTOS
 ---
 
-### Basic of GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker
+#### 👉 Basic of GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker
 
 * Creating CI/CD Pipeline using GitHub Actions for Python Project (Heroku Deployment Example) [here](https://www.youtube.com/watch?v=WTofttoD2xg)
 * GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker [here](https://www.youtube.com/watch?v=R8_veQiYBjI)
@@ -20,7 +20,7 @@ related_posts: true
 * Continuous Integration With Python: An Introduction [Real Python](https://realpython.com/python-continuous-integration/)
 
 
-#### How do I fix the white arrow on the folder thing on GitHub even after deleting the .git folder?
+#### 👉 How do I fix the white arrow on the folder thing on GitHub even after deleting the .git folder?
 You should:
 
  * git `rm --cached afolder` (no trailing slash), with `aFolder` being the name of the folder in which there was a .git/ subfolder (that you already removed)
@@ -29,7 +29,7 @@ You should:
  * You should now see aFolder content in your GitHub repository. more details [here](https://stackoverflow.com/questions/66523079/how-do-i-fix-the-white-arrow-on-the-folder-thing-on-github-even-after-deleting-t)
 
 
-### Moving a sub-directory to a new repo with histroy
+#### 👉 Moving a sub-directory to a new repo with histroy
 * check out the tutorial [here](https://www.youtube.com/watch?v=BSVkmpB8M-k)
 ```.sh
 mkdir code
@@ -47,7 +47,7 @@ git pull origin main --allow-unrelated-histories
 git push origin main
 ```
 
-## Useful Git Links
+#### 👉 Useful Git Links
 
 * Complete list of all git commands [here](https://git-scm.com/docs)
 * Become a git guru from atlassian.com [here](https://www.atlassian.com/git/tutorials)
@@ -70,7 +70,7 @@ git push origin main
 * A framework for managing and maintaining multi-language pre-commit hooks [here](https://pre-commit.com/)
 
 
-## Setting Up Git on Systems
+* 👉 Setting Up Git on Systems
 
 ```.sh
 git config --list to check configuration
@@ -81,7 +81,7 @@ git config --global core.editor "vim"
 
 ```
 
-## Useful Git & SVN commands
+* 👉 Useful Git & SVN commands
 
 ```.sh
 git checkout "file": restore
@@ -94,12 +94,12 @@ svn diff
 svn log --limit 10
 ```
 
-### Checkout a single file to a specific commit
+* 👉 Checkout a single file to a specific commit
 ```.sh
 git checkout <COMMIT#> <path/to/the/messed/up/file>
 ```
 
-### Check the difference between branches A and B
+* 👉 Check the difference between branches A and B
 ```.sh
 git diff branch1..branch2
 git diff branch1...branch2
@@ -115,7 +115,7 @@ git diff commit1 commit2 file
 ```
  [here](https://stackoverflow.com/questions/3338126/how-do-i-diff-the-same-file-between-two-different-commits-on-the-same-branch)
 
-### How to build icetray branch on cluster on cluster by git clone!
+* 👉 How to build icetray branch on cluster on cluster by git clone!
 
 ```.sh
 mkdir icetray
@@ -129,7 +129,7 @@ cmake ../src -DCMAKE_BUILD_TYPE=Debug
 make -jN
 ```
 
-## How to Compile a Particular commit
+* 👉 How to Compile a Particular commit
 
 ```.sh
 git checkout "branch name"
@@ -144,7 +144,7 @@ cmake ../src
 make -j4
 ```
 
-### Contributiong to a branch!
+* 👉 Contributiong to a branch!
 
 ```.sh
 mkdir icetray
