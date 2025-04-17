@@ -79,7 +79,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-observation-of-an-ultra-high-energy-cosmic-neutrino-with-km3net-nature",
+        },{id: "post-",
+      
+        title: "",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/2024-03-25-productivity/";
+        
+      },
+    },{id: "post-observation-of-an-ultra-high-energy-cosmic-neutrino-with-km3net-nature",
       
         title: 'Observation of an ultra-high-energy cosmic neutrino with KM3NeT | Nature <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -154,17 +165,6 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://www.coursera.org/articles/writing-skills", "_blank");
-        
-      },
-    },{id: "post-productivity",
-      
-        title: "Productivity",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/productivity/";
         
       },
     },{id: "post-a-post-with-code-diff",
