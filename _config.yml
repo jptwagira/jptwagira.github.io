@@ -124,19 +124,10 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@jpdevbasics/feed
-  - name: Neutrino Astronomy
-    posts:
-      - url: https://www.nature.com/articles/s41586-024-08543-1
-        published_date: 2025-02-12
-        tags: research astroparticle
-      - url: https://www.science.org/doi/10.1126/science.adc9818
-        published_date: 2023-06-29
-        tags: research astroparticle
   - name: Linux Commands
     posts:
       - url: https://www.tecmint.com/fdupes-find-and-delete-duplicate-files-in-linux/
         published_date: 2023-07-13
-        tags: howtos coding
 
 # -----------------------------------------------------------------------------
 # Newsletter
