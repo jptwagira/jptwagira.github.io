@@ -5,6 +5,7 @@ date: 2024-03-25
 description: how to improve writing skills 
 tags: howtos writing
 categories: writing
+thumbnail: assets/img/9.jpg
 ---
 
 Want to sharpen your writing skills for work, school, or creative projects? This post was originally published on Coursera and offers practical tips to help you become a more effective communicator.
