@@ -136,9 +136,9 @@ ninja.data = [{
       },
     },{id: "post-mastering-writing-skills-tips-tools-and-resources",
       
-        title: "Mastering Writing Skills Tips, Tools, and Resources",
+        title: "mastering writing skills tips, tools, and resources",
       
-      description: "How to Improve Writing Skills",
+      description: "how to improve writing skills",
       section: "Posts",
       handler: () => {
         
