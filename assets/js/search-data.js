@@ -79,18 +79,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-observation-of-an-ultra-high-energy-cosmic-neutrino-with-km3net-nature",
-      
-        title: 'Observation of an ultra-high-energy cosmic neutrino with KM3NeT | Nature <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "The detection of cosmic neutrinos with energies above a teraelectronvolt (TeV) offers a unique exploration into astrophysical phenomena1–3. Electrically neutral and interacting only by means of the weak interaction, neutrinos are not deflected by magnetic fields and are rarely absorbed by interstellar matter: their direction indicates that their cosmic origin might be from the farthest reaches of the Universe. High-energy neutrinos can be produced when ultra-relativistic cosmic-ray protons or nuclei interact with other matter or photons, and their observation could be a signature of these processes. Here we report an exceptionally high-energy event observed by KM3NeT, the deep-sea neutrino telescope in the Mediterranean Sea4, which we associate with a cosmic neutrino detection. We detect a muon with an estimated energy of $$12{0}_{-60}^{+110}$$ petaelectronvolts (PeV). In light of its enormous energy and near-horizontal direction, the muon most probably originated from the interaction of a neutrino of even higher energy in the vicinity of the detector. The cosmic neutrino energy spectrum measured up to now5–7 falls steeply with energy. However, the energy of this event is much larger than that of any neutrino detected so far. This suggests that the neutrino may have originated in a different cosmic accelerator than the lower-energy neutrinos, or this may be the first detection of a cosmogenic neutrino8, resulting&amp;nbsp;from the interactions of ultra-high-energy cosmic rays with background photons in the Universe. A&amp;nbsp;very high-energy muon observed by the KM3NeT experiment in the Mediterranean Sea is evidence for the interaction of an exceptionally high-energy neutrino of cosmic origin. &amp;nbsp;",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://www.nature.com/articles/s41586-024-08543-1", "_blank");
-        
-      },
-    },{id: "post-a-post-with-pseudo-code",
+        },{id: "post-a-post-with-pseudo-code",
       
         title: "a post with pseudo code",
       
@@ -264,17 +253,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2023/jupyter-notebook/";
-        
-      },
-    },{id: "post-just-a-moment",
-      
-        title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://www.science.org/doi/10.1126/science.adc9818", "_blank");
         
       },
     },{id: "post-a-post-with-custom-blockquotes",
