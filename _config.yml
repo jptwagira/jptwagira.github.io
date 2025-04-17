@@ -134,6 +134,10 @@ external_sources:
     posts:
       - url: https://www.tecmint.com/fdupes-find-and-delete-duplicate-files-in-linux/
         published_date: 2023-07-13
+  - name: Productivity
+    posts:
+      - url: https://www.coursera.org/articles/writing-skills
+        published_date: 2024-03-25
 
 # -----------------------------------------------------------------------------
 # Newsletter
