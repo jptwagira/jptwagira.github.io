@@ -3,7 +3,7 @@ layout: post
 title: linux basic commands
 date: 2021-05-18 14:24:00
 description: Linux HOWTOS
-tags: howtos linux
+tags: code howtos linux
 categories: research
 related_posts: true
 ---
