@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.pa.msu.ed/">Michigan State University</a>, 567 Wilson Rd., East Lansing, MI 48824
+subtitle: <a href="https://www.pa.msu.ed/">Michigan State University</a>, 567 Wilson Rd., East Lansing, MI 48824. BPS Room 4235.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>567 Wilson Rd, BPS Room 4235</p>
+  more_info: 
   
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
