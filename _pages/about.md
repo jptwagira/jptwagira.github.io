@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href="https://www.msu.edu/">Michigan State University</a>, 567 Wilson Rd., East Lansing, MI 48824
 
 profile:
   align: right
@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>567 Wilson Rd, BPS Room 4235</p>
-    <p>East Lansing, MI 48824</p>
   
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
