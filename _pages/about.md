@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.pa.msu.edu/">Michigan State University</a> . 567 Wilson Rd., East Lansing, MI 48824 . BPS Room 4235.
+subtitle: <a href="https://www.pa.msu.edu/">Michigan State University</a> . 567 Wilson Rd, East Lansing, MI 48824 . BPS Room 4235.
 
 profile:
   align: right
