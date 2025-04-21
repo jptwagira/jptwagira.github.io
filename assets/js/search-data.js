@@ -97,6 +97,17 @@ ninja.data = [{
           window.open("https://medium.com/@jpdevbasics/how-to-merge-pdf-files-on-linux-1a6bce8a25b6?source=rss-4e448d285c9------2", "_blank");
         
       },
+    },{id: "post-practical-quantum-computing-advances-ramp-up-going-into-2025-constellation-research-inc",
+      
+        title: 'Practical quantum computing advances ramp up going into 2025 | Constellation Research Inc.... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "Classiq Technologies, Deloitte Tohmatsu and Mitsubishi said they have compressed quantum circuits by up to 97% in a move that reduces error rates and may accelerate practical enterprise use cases. The news comes as practical development in quantum computing has accelerated into 2025. Consider: Google said its new Willow quantum processor lowers error rates as it scales to",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://www.constellationr.com/blog-news/insights/practical-quantum-computing-advances-ramp-going-2025", "_blank");
+        
+      },
     },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
@@ -238,17 +249,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2023/tikzjax/";
-        
-      },
-    },{id: "post-fdupes-a-command-line-tool-to-find-and-delete-duplicate-files-in-linux",
-      
-        title: 'fdupes - A Command Line Tool to Find and Delete Duplicate Files in... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "fdupes is a Linux utility for identifying or deleting duplicate files in the given set of directories and sub-directories. It recognize duplicates by comparing MD5 signature of files followed by a byte-to-byte comparison.",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://www.tecmint.com/fdupes-find-and-delete-duplicate-files-in-linux/", "_blank");
         
       },
     },{id: "post-a-post-with-bibliography",
