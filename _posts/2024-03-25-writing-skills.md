@@ -22,4 +22,6 @@ Want to sharpen your writing skills for work, school, or creative projects? This
 
 ---
 
+📖 [Scientific Research Project Documentation Template](https://github.com/jptwagira/programing-tips/blob/main/documentation.md)
+
 Whether you're looking to write better emails, create compelling content, or just express yourself more clearly, improving your writing is a skill worth investing in.

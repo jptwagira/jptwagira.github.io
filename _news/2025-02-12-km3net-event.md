@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Observation of high-energy neutrinos from the Galactic plane
+title: Observation of an ultra-high-energy cosmic neutrino with KM3NeT
 date: 2025-02-12 07:59:00-0400
 tags: neutrino km3net
 categories: research
