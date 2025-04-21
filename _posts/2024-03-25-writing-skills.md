@@ -24,4 +24,6 @@ Want to sharpen your writing skills for work, school, or creative projects? This
 
 📖 [Scientific Research Project Documentation Template](https://github.com/jptwagira/programing-tips/blob/main/documentation.md)
 
+📖👉 [A Smarter, Smoother Writing Experience: Papers & Overleaf Now Work Together](https://www.papersapp.com/highlights/papers-and-overleaf-now-work-together/) and [How to link Papers to your Overleaf account](https://www.overleaf.com/learn/how-to/How_to_link_Papers_to_your_Overleaf_account)
+
 Whether you're looking to write better emails, create compelling content, or just express yourself more clearly, improving your writing is a skill worth investing in.
