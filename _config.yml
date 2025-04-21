@@ -124,10 +124,10 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@jpdevbasics/feed
-  - name: Linux Commands
+  - name: QC Updates
     posts:
-      - url: https://www.tecmint.com/fdupes-find-and-delete-duplicate-files-in-linux/
-        published_date: 2023-07-13
+      - url: https://www.constellationr.com/blog-news/insights/practical-quantum-computing-advances-ramp-going-2025
+        published_date: 2024-12-11
 
 # -----------------------------------------------------------------------------
 # Newsletter
