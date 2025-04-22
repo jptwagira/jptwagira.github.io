@@ -429,14 +429,16 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-observation-of-high-energy-neutrinos-from-the-galactic-plane",
+    },{id: "news-observation-of-high-energy-neutrinos-from-the-galactic-plane",
           title: 'Observation of high-energy neutrinos from the Galactic plane',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/galactic_neutrinos/";
+            },},{id: "news-thrilled-to-present-our-research-at-the-aps-april-meeting-2024-in-sacramento",
+          title: '🎤 Thrilled to Present Our Research at the APS April Meeting 2024 in...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/APS_April_meeting/";
             },},{id: "news-observation-of-an-ultra-high-energy-cosmic-neutrino-with-km3net",
           title: 'Observation of an ultra-high-energy cosmic neutrino with KM3NeT',
           description: "",
