@@ -1,8 +1,8 @@
 ---
 layout: page
-title: teaching
+title: 
 nav: true
-nav_order: 9
+nav_order: 8
 dropdown: true
 children:
   - title: projects
