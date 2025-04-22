@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: I am a PhD candidate and a research assistant in the field of experimental astroparticle physics, working on neutrino research spanning data analysis and software development for tools designed for scientific applications.
-nav: false
+nav: true
 nav_order:
 ---
 
