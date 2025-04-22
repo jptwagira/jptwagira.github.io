@@ -16,6 +16,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
+        },{id: "nav-",
+          title: "",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-",
+          title: "",
+          description: "I am a PhD candidate and a research assistant in the field of experimental astroparticle physics, working on neutrino research spanning data analysis and software development for tools designed for scientific applications.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "I am a PhD candidate and a research assistant in the field of experimental astroparticle physics, working on neutrino research spanning data analysis and software development for tools designed for scientific applications.",
@@ -37,33 +51,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-research",
-          title: "research",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/_pages/research/";
-          },
-        },{id: "nav-teaching",
+        },{id: "dropdown-projects",
+              title: "projects",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-repositories",
+              title: "repositories",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "nav-teaching",
           title: "teaching",
           description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
-          },
-        },{id: "nav-",
-          title: "",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-",
-          title: "",
-          description: "I am a PhD candidate and a research assistant in the field of experimental astroparticle physics, working on neutrino research spanning data analysis and software development for tools designed for scientific applications.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
           },
         },{id: "post-how-to-merge-pdf-files-on-linux",
       
