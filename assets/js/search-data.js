@@ -434,8 +434,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/galactic_neutrinos/";
-            },},{id: "news-thrilled-to-present-our-research-at-the-aps-april-meeting-2024-in-sacramento",
-          title: '🎤 Thrilled to Present Our Research at the APS April Meeting 2024 in...',
+            },},{id: "news-thrilled-to-present-our-research-work-at-the-aps-april-meeting-2024-in-sacramento",
+          title: '🎤 Thrilled to present our research work at the APS April meeting 2024...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/APS_April_meeting/";
