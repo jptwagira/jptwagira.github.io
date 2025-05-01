@@ -275,6 +275,17 @@ ninja.data = [{
           window.location.href = "/blog/2023/videos/";
         
       },
+    },{id: "post-what-are-the-3-dimensions-of-authentic-wealth",
+      
+        title: "What are the 3 Dimensions of Authentic Wealth?",
+      
+      description: "About 3 Dimensional Wealth",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2023/learn_about_wealth/";
+        
+      },
     },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
       
         title: "displaying beautiful tables with Bootstrap Tables",
@@ -372,17 +383,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2020/twitter/";
-        
-      },
-    },{id: "post-what-are-the-3-dimensions-of-authentic-wealth",
-      
-        title: "What are the 3 Dimensions of Authentic Wealth?",
-      
-      description: "About 3 Dimensional Wealth",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2018/learn_about_wealth/";
         
       },
     },{id: "post-a-post-with-disqus-comments",
