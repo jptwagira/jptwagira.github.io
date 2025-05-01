@@ -374,11 +374,11 @@ ninja.data = [{
           window.location.href = "/blog/2020/twitter/";
         
       },
-    },{id: "post-learn-about-wealth",
+    },{id: "post-what-are-the-3-dimensions-of-authentic-wealth",
       
-        title: "Learn_about_wealth",
+        title: "What are the 3 Dimensions of Authentic Wealth?",
       
-      description: "",
+      description: "About 3 Dimensional Wealth",
       section: "Posts",
       handler: () => {
         
