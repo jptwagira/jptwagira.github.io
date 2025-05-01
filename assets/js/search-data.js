@@ -374,6 +374,17 @@ ninja.data = [{
           window.location.href = "/blog/2020/twitter/";
         
       },
+    },{id: "post-learn-about-wealth",
+      
+        title: "Learn_about_wealth",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2018/learn_about_wealth/";
+        
+      },
     },{id: "post-a-post-with-disqus-comments",
       
         title: "a post with disqus comments",
