@@ -27,7 +27,7 @@ git branch -a
 svn status
 svn diff
 svn log --limit 10
-</code></pre> <h4 id="-check-the-difference-between-branches-a-and-b">👉 Check the difference between branches A and B</h4> <ul> <li> <a href="https://stackoverflow.com/questions/3338126/how-do-i-diff-the-same-file-between-two-different-commits-on-the-same-branch" rel="external nofollow noopener" target="_blank">here</a> <pre><code class="language-.sh">git diff branch1..branch2
+</code></pre> <h4 id="-check-the-difference-between-branches-a-and-b">👉 Check the difference between branches A and B</h4> <pre><code class="language-.sh">git diff branch1..branch2
 git diff branch1...branch2
 git log branch1..branch2
 git diff branches/directreco..origin/stable
@@ -38,7 +38,7 @@ git diff --color-words branch1..branch2
 git diff --color-words commit1..commit2
 git diff branch-A branch-B
 git diff commit1 commit2 file
-</code></pre> </li> </ul> <h4 id="-how-to-build-icetray-branch-on-cluster-on-cluster-by-git-clone">👉 How to build icetray branch on cluster on cluster by git clone!</h4> <pre><code class="language-.sh">mkdir icetray
+</code></pre> <h4 id="-how-to-build-icetray-branch-on-cluster-on-cluster-by-git-clone">👉 How to build icetray branch on cluster on cluster by git clone!</h4> <pre><code class="language-.sh">mkdir icetray
 cd icetray
 mkdir -p src debug
 git clone &lt;url&gt; src
