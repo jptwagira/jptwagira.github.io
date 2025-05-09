@@ -50,7 +50,6 @@ git push origin main
 
 
 #### 👉 Setting Up Git on Systems
-
 ```.sh
 git config --list to check configuration
 git config --global user.name "First Last"
@@ -61,7 +60,6 @@ git config --global core.editor "vim"
 ```
 
 #### 👉 Useful Git & SVN commands
-
 ```.sh
 git checkout "file": restore
 git checkout "branch name"
@@ -87,10 +85,8 @@ git diff --color-words commit1..commit2
 git diff branch-A branch-B
 git diff commit1 commit2 file
 ```
- [here](https://stackoverflow.com/questions/3338126/how-do-i-diff-the-same-file-between-two-different-commits-on-the-same-branch)
 
 #### 👉 How to build icetray branch on cluster on cluster by git clone!
-
 ```.sh
 mkdir icetray
 cd icetray
@@ -103,8 +99,7 @@ cmake ../src -DCMAKE_BUILD_TYPE=Debug
 make -jN
 ```
 
-* 👉 How to Compile a Particular commit
-
+#### 👉 How to Compile a Particular commit
 ```.sh
 git checkout "branch name"
 git log --oneline
@@ -116,14 +111,4 @@ git log --oneline
 mkdir debug / cd debug
 cmake ../src
 make -j4
-```
-
-* 👉 Contributiong to a branch!
-
-```.sh
-mkdir icetray
-cd icetray
-mkdir -p src debug
-git clone <url> src
-git clone -b "branch name" --single-branch <url> src
 ```
