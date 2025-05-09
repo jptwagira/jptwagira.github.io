@@ -77,9 +77,9 @@ ninja.data = [{
           window.location.href = "/blog/2024/photo-gallery/";
         
       },
-    },{id: "post-mastering-writing-skills-tips-tools-and-resources",
+    },{id: "post-writing-skills-tips",
       
-        title: "mastering writing skills tips, tools, and resources",
+        title: "writing skills tips",
       
       description: "how to improve writing skills",
       section: "Posts",
