@@ -77,9 +77,9 @@ ninja.data = [{
           window.location.href = "/blog/2024/photo-gallery/";
         
       },
-    },{id: "post-writing-skills-tips",
+    },{id: "post-writing-and-miscellaneous",
       
-        title: "writing skills tips",
+        title: "writing and miscellaneous",
       
       description: "how to improve writing skills",
       section: "Posts",
