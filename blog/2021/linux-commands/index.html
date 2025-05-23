@@ -13,14 +13,11 @@ scp &lt;path to files to copy files from&gt; &lt;path to copy files to&gt;
 grep -r "1.35634" *
 </code></pre> </li> <li>How to rename multiple files on Linux <a href="https://linuxconfig.org/how-to-rename-multiple-files-on-linux" rel="external nofollow noopener" target="_blank">here</a> <pre><code class="language-.sh">mmv "*Log_Likelihood_direction_*" "#1Log_Likelihood_direction_scan_event_11_#2"
 </code></pre> </li> <li>Dumping the output file in a <pre><code class="language-.sh">python file &gt;&gt; output.txt
-</code></pre> </li> <li>How to submit interactive job on many file ```.sh condor_submit -interactive -a request_gpus=1 eval $(/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/setup.sh) /data/p-one/twagiray/trackreco/build/env-shell.sh cd /data/p-one/twagiray/reco_track_baseline/llh_scan</li> </ul> <p>run_job.sh #!/bin/bash pyfile=PATH/python_file.py gcd=PATH/gcd_file.i3.gz infile=PATH/i3file_*.i3.gz outfile=PATH for file in $infile do python $pyfile -g $gcd -i $file -o $outfile/name.i3.gz done</p> <p>bash run_job.sh » outfile.txt</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-* How to make tree output only directories
-```.sh
-tree -d
+</code></pre> </li> <li>How to make tree output only directories <pre><code class="language-.sh">tree -d
 tree -d &lt;target_directory&gt;
 tree -d -L 2 .
 tree -d -L 3 home/downloads/
-</code></pre></div></div> <ul> <li> <p>10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories <a href="https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/" rel="external nofollow noopener" target="_blank">here</a></p> </li> <li>Commands to find disk usage of files and directories <pre><code class="language-.sh">du -h downloads/
+</code></pre> </li> <li> <p>10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories <a href="https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/" rel="external nofollow noopener" target="_blank">here</a></p> </li> <li>Commands to find disk usage of files and directories <pre><code class="language-.sh">du -h downloads/
 du -ah downloads/
 du -mh downloads/
 du -mh --max-depth=1 downloads/

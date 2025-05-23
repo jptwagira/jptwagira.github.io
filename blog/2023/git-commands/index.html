@@ -13,10 +13,12 @@ cd ../p-time-residuals/
 git remote add origin https://github.com/jptwagira/p-time-residuals.git
 git pull origin main --allow-unrelated-histories
 git push origin main
-</code></pre> </li> <li>Setting Up Git on Systems ```.sh git config –list to check configuration git config –global user.name “First Last” git config –global user.email “email” git config –global merge.tool “vimdiff” git config –global core.editor “vim”</li> </ul> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-- Useful Git &amp; SVN commands
-```.sh
-git checkout "file": restore
+</code></pre> </li> <li>Setting Up Git on Systems <pre><code class="language-.sh">git config --list to check configuration
+git config --global user.name "First Last"
+git config --global user.email "email"
+git config --global merge.tool "vimdiff"
+git config --global core.editor "vim"
+</code></pre> </li> <li>Useful Git &amp; SVN commands <pre><code class="language-.sh">git checkout "file": restore
 git checkout "branch name"
 git checkout "commit ID"
 git log --oneline
@@ -24,7 +26,7 @@ git branch -a
 svn status
 svn diff
 svn log --limit 10
-</code></pre></div></div> <ul> <li>Check the difference between branches A and B <pre><code class="language-.sh">git diff branch1..branch2
+</code></pre> </li> <li>Check the difference between branches A and B <pre><code class="language-.sh">git diff branch1..branch2
 git diff branch1...branch2
 git log branch1..branch2
 git diff branches/directreco..origin/stable
