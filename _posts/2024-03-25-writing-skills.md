@@ -4,7 +4,7 @@ title: writing and miscellaneous
 date: 2024-03-25
 description: how to improve writing skills 
 tags: howtos writing
-categories: writing
+categories: research misc
 thumbnail: assets/img/9.jpg
 ---
 
@@ -13,8 +13,8 @@ thumbnail: assets/img/9.jpg
 
 ---
 
-📖 [Scientific research project documentation](https://github.com/jptwagira/programing-tips/blob/main/documentation.md) and [projects on P-ONE](https://github.com/jptwagira/phd-dissertation/tree/main)
+- 📖 [Scientific research project documentation](https://github.com/jptwagira/programing-tips/blob/main/documentation.md): check [my projects work on the P-ONE](https://github.com/jptwagira/phd-dissertation/tree/main)
 
 ---
 
-📖👉 [Veritasium: What Everyone Gets Wrong About AI and Learning – Derek Muller Explains](https://www.youtube.com/watch?v=0xS68sl2D70)
+- 👉 [Veritasium: What Everyone Gets Wrong About AI and Learning – Derek Muller Explains](https://www.youtube.com/watch?v=0xS68sl2D70)
