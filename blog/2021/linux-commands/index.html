@@ -7,34 +7,20 @@ sudo apt install texlive-extra-utils
 pdftk original.pdf stamp watermark.pdf output final.pdf
 </code></pre> </li> <li>How to reverse the page order of a PDF file <a href="https://unix.stackexchange.com/questions/439959/how-to-reverse-the-page-order-of-a-pdf-file" rel="external nofollow noopener" target="_blank">unix</a> <pre><code class="language-.sh">qpdf --empty --pages infile.pdf z-1 -- outfile.pdf
 </code></pre> </li> <li>Displace Days and time for history command <a href="https://askubuntu.com/questions/391082/how-to-see-time-stamps-in-bash-history" rel="external nofollow noopener" target="_blank">here</a> and <a href="https://linuxize.com/post/history-command-in-linux/" rel="external nofollow noopener" target="_blank">here</a> <pre><code class="language-.sh">echo 'HISTTIMEFORMAT="%F %T "' &gt;&gt; ~/.bashrc
-</code></pre> </li> <li>/etc/apt/sources.list <ul> <li>Example of /etc/apt/sources.list Ubuntu 18.04 <a href="https://gist.github.com/h0bbel/4b28ede18d65c3527b11b12fa36aa8d1" rel="external nofollow noopener" target="_blank">here</a> </li> </ul> </li> <li>Some useful commands <a href="https://stackabuse.com/copying-a-directory-with-scp" rel="external nofollow noopener" target="_blank">Copying a Directory with SCP</a> and <a href="https://linuxhint.com/rsync_copy_files/" rel="external nofollow noopener" target="_blank">here</a> </li> </ul> <pre><code class="language-.sh">rsync -avz &lt;path to files to copy files from&gt; &lt;path to copy files to&gt;
+</code></pre> </li> <li>/etc/apt/sources.list <ul> <li>Example of /etc/apt/sources.list Ubuntu 18.04 <a href="https://gist.github.com/h0bbel/4b28ede18d65c3527b11b12fa36aa8d1" rel="external nofollow noopener" target="_blank">here</a> </li> </ul> </li> <li>Some useful commands <a href="https://stackabuse.com/copying-a-directory-with-scp" rel="external nofollow noopener" target="_blank">Copying a Directory with SCP</a> and <a href="https://linuxhint.com/rsync_copy_files/" rel="external nofollow noopener" target="_blank">here</a> <pre><code class="language-.sh">rsync -avz &lt;path to files to copy files from&gt; &lt;path to copy files to&gt;
 scp &lt;path to files to copy files from&gt; &lt;path to copy files to&gt;
-</code></pre> <ul> <li> <p>How To Clear Shell History In Ubuntu Linux <a href="https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/" rel="external nofollow noopener" target="_blank">here</a></p> </li> <li>searching a word or a variable using grep command <pre><code class="language-.sh">grep -r "n_ice_group" *
+</code></pre> </li> <li> <p>How To Clear Shell History In Ubuntu Linux <a href="https://www.cyberciti.biz/faq/clear-the-shell-history-in-ubuntu-linux/" rel="external nofollow noopener" target="_blank">here</a></p> </li> <li>searching a word or a variable using grep command <pre><code class="language-.sh">grep -r "n_ice_group" *
 grep -r "1.35634" *
 </code></pre> </li> <li>How to rename multiple files on Linux <a href="https://linuxconfig.org/how-to-rename-multiple-files-on-linux" rel="external nofollow noopener" target="_blank">here</a> <pre><code class="language-.sh">mmv "*Log_Likelihood_direction_*" "#1Log_Likelihood_direction_scan_event_11_#2"
 </code></pre> </li> <li>Dumping the output file in a <pre><code class="language-.sh">python file &gt;&gt; output.txt
-</code></pre> </li> </ul> <h4 id="how-to-submit-interactive-job-on-many-file">How to submit interactive job on many file</h4> <pre><code class="language-.sh">condor_submit -interactive -a request_gpus=1
-eval $(/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/setup.sh)
-/data/p-one/twagiray/trackreco/build/env-shell.sh
-cd /data/p-one/path/reco_track_baseline/llh_scan
-
-run_job.sh
-#!/bin/bash
-pyfile=PATH/python_file.py
-gcd=PATH/gcd_file.i3.gz
-infile=PATH/i3file_*.i3.gz
-outfile=PATH
-for file in $infile
-do
-	python $pyfile -g $gcd -i $file -o $outfile/name.i3.gz
-done
-
-bash run_job.sh &gt;&gt; outfile.txt
-</code></pre> <ul> <li>How to make tree output only directories <pre><code class="language-.sh">tree -d
+</code></pre> </li> <li>How to submit interactive job on many file ```.sh condor_submit -interactive -a request_gpus=1 eval $(/cvmfs/icecube.opensciencegrid.org/py3-v4.1.1/setup.sh) /data/p-one/twagiray/trackreco/build/env-shell.sh cd /data/p-one/path/reco_track_baseline/llh_scan</li> </ul> <p>run_job.sh #!/bin/bash pyfile=PATH/python_file.py gcd=PATH/gcd_file.i3.gz infile=PATH/i3file_*.i3.gz outfile=PATH for file in $infile do python $pyfile -g $gcd -i $file -o $outfile/name.i3.gz done</p> <p>bash run_job.sh » outfile.txt</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+* How to make tree output only directories
+```.sh
+tree -d
 tree -d &lt;target_directory&gt;
 tree -d -L 2 .
 tree -d -L 3 home/downloads/
-</code></pre> </li> <li> <p>10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories <a href="https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/" rel="external nofollow noopener" target="_blank">here</a></p> </li> <li>Commands to find disk usage of files and directories <pre><code class="language-.sh">du -h downloads/
+</code></pre></div></div> <ul> <li> <p>10 Useful du (Disk Usage) Commands to Find Disk Usage of Files and Directories <a href="https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/" rel="external nofollow noopener" target="_blank">here</a></p> </li> <li>Commands to find disk usage of files and directories <pre><code class="language-.sh">du -h downloads/
 du -ah downloads/
 du -mh downloads/
 du -mh --max-depth=1 downloads/
