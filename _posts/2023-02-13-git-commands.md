@@ -3,35 +3,35 @@ layout: post
 title: git basic commands
 date: 2023-02-13 14:24:00
 description: Git HOWTOS
-tags: code howtos
-categories: research datascience
-related_posts: false
+tags: code howtos git
+categories: research git
+related_posts: true
 ---
 
 ### Git HOWTOS
 ---
 
-#### 👉 Basic Concepts and CI/CD Pipeline with Docker
+- Basic Concepts and CI/CD Pipeline
+    - Github Actions and Continuous Integration [icetray-public](https://github.com/icecube/icetray-public/tree/main) and [skymap-scanner](https://github.com/icecube/skymap_scanner)
+    - Continuous Integration With Python: An Introduction [Real Python](https://realpython.com/python-continuous-integration/)
 
-* Github Actions and Continuous Integration [icetray-public](https://github.com/icecube/icetray-public/tree/main) and [skymap-scanner](https://github.com/icecube/skymap_scanner)
-* Continuous Integration With Python: An Introduction [Real Python](https://realpython.com/python-continuous-integration/)
+- Running Jupyter Notebooks in VS Code
+    - checkout documentation [here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+
+- Useful Git Links
+    - GitGuide: GitHub in IceCube [here](https://github.com/icecube/icecube.github.io/wiki/GitGuide%3AGitHub-in-IceCube)
+    - IceCube GitHub Development [here](https://github.com/icecube/icecube.github.io/wiki)
+    - IceCube Developer Policy [here](https://github.com/icecube/icecube.github.io/wiki/DeveloperPolicy)
+
+    - Complete list of all git commands [here](https://git-scm.com/docs)
+    - Become a git guru from atlassian.com [here](https://www.atlassian.com/git/tutorials)
+    - A Visual Git Reference [here](https://marklodato.github.io/visual-git-guide/index-en.html?no-svg#:~:text=git%20checkout%20HEAD%20%2D%2D%20files,stage%20and%20the%20working%20directory.)
+    - Git & GitHub Tutorials [here](https://www.youtube.com/watch?v=xAAmje1H9YM&list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW)
+    - A framework for managing and maintaining multi-language pre-commit hooks [here](https://pre-commit.com/)
 
 
-#### 👉 Useful Git Links
-
-* GitGuide: GitHub in IceCube [here](https://github.com/icecube/icecube.github.io/wiki/GitGuide%3AGitHub-in-IceCube)
-* IceCube GitHub Development [here](https://github.com/icecube/icecube.github.io/wiki)
-* IceCube Developer Policy [here](https://github.com/icecube/icecube.github.io/wiki/DeveloperPolicy)
-
-* Complete list of all git commands [here](https://git-scm.com/docs)
-* Become a git guru from atlassian.com [here](https://www.atlassian.com/git/tutorials)
-* A Visual Git Reference [here](https://marklodato.github.io/visual-git-guide/index-en.html?no-svg#:~:text=git%20checkout%20HEAD%20%2D%2D%20files,stage%20and%20the%20working%20directory.)
-* Git & GitHub Tutorials [here](https://www.youtube.com/watch?v=xAAmje1H9YM&list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW)
-* A framework for managing and maintaining multi-language pre-commit hooks [here](https://pre-commit.com/)
-
-
-#### 👉 Moving a sub-directory to a new repo with histroy
-* check out the tutorial [here](https://www.youtube.com/watch?v=BSVkmpB8M-k)
+- Moving a sub-directory to a new repo with histroy
+- check out the tutorial [here](https://www.youtube.com/watch?v=BSVkmpB8M-k)
 ```.sh
 mkdir code
 cd code/
@@ -49,17 +49,16 @@ git push origin main
 ```
 
 
-#### 👉 Setting Up Git on Systems
+- Setting Up Git on Systems
 ```.sh
 git config --list to check configuration
 git config --global user.name "First Last"
 git config --global user.email "email"
 git config --global merge.tool "vimdiff"
 git config --global core.editor "vim"
-
 ```
 
-#### 👉 Useful Git & SVN commands
+- Useful Git & SVN commands
 ```.sh
 git checkout "file": restore
 git checkout "branch name"
@@ -71,7 +70,7 @@ svn diff
 svn log --limit 10
 ```
 
-#### 👉 Check the difference between branches A and B
+- Check the difference between branches A and B
 ```.sh
 git diff branch1..branch2
 git diff branch1...branch2
@@ -86,7 +85,7 @@ git diff branch-A branch-B
 git diff commit1 commit2 file
 ```
 
-#### 👉 How to build icetray branch on cluster on cluster by git clone!
+- How to build icetray branch on cluster on cluster by git clone!
 ```.sh
 mkdir icetray
 cd icetray
@@ -99,7 +98,7 @@ cmake ../src -DCMAKE_BUILD_TYPE=Debug
 make -jN
 ```
 
-#### 👉 How to Compile a Particular commit
+- How to Compile a Particular commit
 ```.sh
 git checkout "branch name"
 git log --oneline
