@@ -16,6 +16,6 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-I am a Ph.D. candidate working on experimental neutrino astroparticle physics research spanning data analysis and software development for scientific applications. My primary research focus revolves around identifying sources of astrophysical neutrinos using data from Neutrino Telescopes.
+I am a research assistant in the field of experimental astroparticle physics, working on neutrino research spanning data analysis and software development for tools designed for scientific applications. My primary research focus revolves around identifying sources of astrophysical neutrinos using data from Neutrino Telescopes.
 
 Current research includes producing Monte Carlo Simulation for the Pacific Ocean Neutrino Experiment (P-ONE), development of event reconstruction algorithms for the P-ONE, conducting statistical data analysis to forecast the sensitivity of the P-ONE to astrophysical point sources of neutrinos, and conducting geometry optimization studies for the P-ONE.
