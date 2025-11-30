@@ -13,6 +13,12 @@ related_posts: true
 
 * 👉 [fdupes – A Command Line Tool to Find and Delete Duplicate Files in Linux](https://www.tecmint.com/fdupes-find-and-delete-duplicate-files-in-linux/)
 
+* 💻 [(Resolved) Please install all available updates for your release before upgrading](https://tecadmin.net/resolved-please-install-all-available-updates-for-your-release-before-upgrading/)
+```.sh
+cd /etc/apt/sources.list.d 
+for i in *.list; do sudo mv ${i} ${i}.disabled; done
+``` 
+
 * How to make tree output only directories
 ```.sh
 tree -d
