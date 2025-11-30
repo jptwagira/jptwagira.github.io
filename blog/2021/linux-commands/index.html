@@ -6,13 +6,6 @@ for i in *.list; do sudo mv ${i} ${i}.disabled; done
 tree -d &lt;target_directory&gt;
 tree -d -L 2 .
 tree -d -L 3 home/downloads/
-</code></pre> </li> <li>👉 Commands to find disk usage of files and directories <pre><code class="language-.sh">du -h downloads/
-du -ah downloads/
-du -mh downloads/
-du -mh --max-depth=1 downloads/
-find . -type f -exec du --human {} + | sort --human
-find . -type f -exec du --human {} + | sort --human --reverse
-find . -type f -exec du --human {} + | sort --human --reverse | head
 </code></pre> </li> <li>👉 Sorted output for du -h Commands to find disk usage <a href="https://www.cyberciti.biz/faq/how-do-i-sort-du-h-output-by-size-under-linux/#:~:text=How%20can%20I%20sort%20du,added%20the%20gnu%2Fsort%20command." rel="external nofollow noopener" target="_blank">cyberciti.biz</a> <pre><code class="language-.sh">du -mh --max-depth=1 downloads/ | sort -h
 du -mh --max-depth=1 downloads/ | sort -h -r
 du --human-readable --max-depth=1 downloads/ | sort --human-numeric-sort -r
