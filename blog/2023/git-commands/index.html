@@ -13,32 +13,7 @@ cd ../p-time-residuals/
 git remote add origin https://github.com/jptwagira/p-time-residuals.git
 git pull origin main --allow-unrelated-histories
 git push origin main
-</code></pre> </li> </ul> <h4 id="-setting-up-git-on-systems">👉 Setting Up Git on Systems</h4> <pre><code class="language-.sh">git config --list to check configuration
-git config --global user.name "First Last"
-git config --global user.email "email"
-git config --global merge.tool "vimdiff"
-git config --global core.editor "vim"
-
-</code></pre> <h4 id="-useful-git--svn-commands">👉 Useful Git &amp; SVN commands</h4> <pre><code class="language-.sh">git checkout "file": restore
-git checkout "branch name"
-git checkout "commit ID"
-git log --oneline
-git branch -a
-svn status
-svn diff
-svn log --limit 10
-</code></pre> <h4 id="-check-the-difference-between-branches-a-and-b">👉 Check the difference between branches A and B</h4> <pre><code class="language-.sh">git diff branch1..branch2
-git diff branch1...branch2
-git log branch1..branch2
-git diff branches/directreco..origin/stable
-git diff origin/stable..branches/directreco
-git diff master..feature -- &lt;file&gt;
-git diff --color-words
-git diff --color-words branch1..branch2
-git diff --color-words commit1..commit2
-git diff branch-A branch-B
-git diff commit1 commit2 file
-</code></pre> <h4 id="-how-to-build-icetray-branch-on-cluster-on-cluster-by-git-clone">👉 How to build icetray branch on cluster on cluster by git clone!</h4> <pre><code class="language-.sh">mkdir icetray
+</code></pre> </li> </ul> <h4 id="-how-to-build-icetray-branch-on-cluster-on-cluster-by-git-clone">👉 How to build icetray branch on cluster on cluster by git clone!</h4> <pre><code class="language-.sh">mkdir icetray
 cd icetray
 mkdir -p src debug
 git clone &lt;url&gt; src
