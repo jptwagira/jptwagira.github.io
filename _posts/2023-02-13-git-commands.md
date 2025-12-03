@@ -48,44 +48,6 @@ git pull origin main --allow-unrelated-histories
 git push origin main
 ```
 
-
-#### 👉 Setting Up Git on Systems
-```.sh
-git config --list to check configuration
-git config --global user.name "First Last"
-git config --global user.email "email"
-git config --global merge.tool "vimdiff"
-git config --global core.editor "vim"
-
-```
-
-#### 👉 Useful Git & SVN commands
-```.sh
-git checkout "file": restore
-git checkout "branch name"
-git checkout "commit ID"
-git log --oneline
-git branch -a
-svn status
-svn diff
-svn log --limit 10
-```
-
-#### 👉 Check the difference between branches A and B
-```.sh
-git diff branch1..branch2
-git diff branch1...branch2
-git log branch1..branch2
-git diff branches/directreco..origin/stable
-git diff origin/stable..branches/directreco
-git diff master..feature -- <file>
-git diff --color-words
-git diff --color-words branch1..branch2
-git diff --color-words commit1..commit2
-git diff branch-A branch-B
-git diff commit1 commit2 file
-```
-
 #### 👉 How to build icetray branch on cluster on cluster by git clone!
 ```.sh
 mkdir icetray

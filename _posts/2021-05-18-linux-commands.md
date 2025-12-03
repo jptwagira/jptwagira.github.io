@@ -115,17 +115,7 @@ grep -r "n_ice_group" *
 grep -r "1.35634" *
 ```
 
-* Installing GNOME graphic Manager or 4 Ways to Recover from a Crashed or Frozen X Server on Linux [here](https://www.howtogeek.com/119293/4-ways-to-recover-from-a-crashed-or-frozen-x-server-on-linux/)
-
-```.sh
-sudo apt-get install gnome
-```
-
-* How to Fix the Ubuntu Login Loop [here](https://www.maketecheasier.com/fix-ubuntu-login-loop/#:~:text=The%20most%20common%20cause%20is,it%20works%20in%20most%20cases.)
-
-```.sh
-sudo apt install ubuntu-desktop
-```
+* [Installing Ubuntu from a USB Drive: A Comprehensive Guide](https://linuxvox.com/blog/how-to-install-ubuntu-from-usb-drive/)
 
 * How to rename multiple files on Linux [here](https://linuxconfig.org/how-to-rename-multiple-files-on-linux)\
 ```.sh
