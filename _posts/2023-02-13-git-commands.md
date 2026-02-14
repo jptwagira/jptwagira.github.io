@@ -29,25 +29,6 @@ related_posts: false
 * Git & GitHub Tutorials [here](https://www.youtube.com/watch?v=xAAmje1H9YM&list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW)
 * A framework for managing and maintaining multi-language pre-commit hooks [here](https://pre-commit.com/)
 
-
-#### 👉 Moving a sub-directory to a new repo with histroy
-* check out the tutorial [here](https://www.youtube.com/watch?v=BSVkmpB8M-k)
-```.sh
-mkdir code
-cd code/
-git clone https://github.com/jptwagira/p-reconstruction.git
-cd p-reconstruction/
-git remote rm origin
-git filter-branch --subdirectory-filter time-residuals -- --all
-mkdir ../p-time-residuals
-mv * ../p-time-residuals/
-mv .git/ ../p-time-residuals/
-cd ../p-time-residuals/
-git remote add origin https://github.com/jptwagira/p-time-residuals.git
-git pull origin main --allow-unrelated-histories
-git push origin main
-```
-
 #### 👉 How to build icetray branch on cluster on cluster by git clone!
 ```.sh
 mkdir icetray

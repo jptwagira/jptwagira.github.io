@@ -16,8 +16,4 @@ related_posts: false
 
 ---
 
-⏳ [Building Better Habits: How a Simple Family Meeting Can Improve Things](https://joyinthemeantime.com/family-meeting-and-donuts-how-weve-improved-our-familys-communication-and-routine/)
-
----
-
 📘 [Financial Literacy for Kids: An Active Learning Approach](https://busykid.com/financial-literacy-for-kids/)

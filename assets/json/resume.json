@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Dr. Jean Pierre Twagirayezu",
+    "name": "Dr. Jean P. Twagirayezu",
     "label": "PhD in Physics",
     "image": "",
     "email": "twagiray@msu.edu",
@@ -23,6 +23,16 @@
     ]
   },
   "work": [
+    {
+      "name": "Michigan State University, department of Physics and Astronomy",
+      "location": "East Lansing, MI, USA",
+      "position": "Teaching Assistant",
+      "url": "https://pa.msu.edu/",
+      "startDate": "2026-01-01",
+      "endDate": "2026-05-01",
+      "summary": "Assisted with in-class group problem solving through integrated physics laboratory and discussion, grading lab reports, office hours through help room sessions, and recitation for for PHY 222 Studio Physics for Life Scientists II.",
+      "highlights": []
+    },
     {
       "name": "Michigan State University, The Pacific Ocean Neutrino Experiment",
       "location": "East Lansing, MI, USA",
@@ -94,7 +104,7 @@
       "area": "Performance studies for the Pacific Ocean Neutrino Experiment",
       "studyType": "Doctor of Philosophy (Ph.D.) in Physics",
       "startDate": "2020-01-01",
-      "endDate": "2025-12-31",
+      "endDate": "2026-05-01",
       "score": "10",
       "courses": ["Experimental Astroparticle Physics, P-ONE"]
     },
@@ -181,7 +191,7 @@
     },
     {
       "language": "French",
-      "fluency": "Basic",
+      "fluency": "Intermediate",
       "icon": ""
     },
     {
