@@ -55,11 +55,11 @@ ninja.data = [{
           window.open("https://medium.com/@jpdevbasics/how-to-merge-pdf-files-on-linux-1a6bce8a25b6?source=rss-4e448d285c9------2", "_blank");
         
       },
-    },{id: "post-practical-quantum-computing-advances-ramp-up-going-into-2025-constellation-research-inc",
+    },{id: "post-practical-quantum-computing-advances-ramp-up-going-into-2025-constellation-research",
       
-        title: 'Practical quantum computing advances ramp up going into 2025 | Constellation Research Inc.... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'Practical quantum computing advances ramp up going into 2025 | Constellation Research <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "Classiq Technologies, Deloitte Tohmatsu and Mitsubishi said they have compressed quantum circuits by up to 97% in a move that reduces error rates and may accelerate practical enterprise use cases. The news comes as practical development in quantum computing has accelerated into 2025. Consider: Google said its new Willow quantum processor lowers error rates as it scales to",
+      description: "Classiq Technologies, Deloitte Tohmatsu and Mitsubishi said they have compressed quantum circuits by up to 97% in a move that reduces error rates and may accelerate practical enterprise use cases. The news comes as practical development in quantum computing has accelerated into 2025. Consider:",
       section: "Posts",
       handler: () => {
         
