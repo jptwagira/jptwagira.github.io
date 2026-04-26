@@ -77,17 +77,6 @@ ninja.data = [{
           window.location.href = "/blog/2024/photo-gallery/";
         
       },
-    },{id: "post-writing-and-miscellaneous",
-      
-        title: "writing and miscellaneous",
-      
-      description: "how to improve writing skills",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/writing-skills/";
-        
-      },
     },{id: "post-what-are-the-3-dimensions-of-authentic-wealth",
       
         title: "What are the 3 Dimensions of Authentic Wealth?",
