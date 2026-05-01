@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "cv",
-          description: "I earned my PhD in Physics in spring 2026 and a Master of Science in Physics in 2020, both from Michigan State University. Before joining MSU, I obtained a Master of Science in Mathematical Sciences from the African Institute for Mathematical Sciences in 2018 and Bachelor degree from the University of Rwanda in 2015.",
+          description: "I completed my PhD in Physics in May 2026, following a Master of Science in Physics in 2020, both from Michigan State University. Before joining MSU, I obtained a Master of Science in Mathematical Sciences from the African Institute for Mathematical Sciences in 2018 and Bachelor degree from the University of Rwanda in 2015.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
